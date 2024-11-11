@@ -53,12 +53,6 @@ def DBSCAN_Algorithm(DB, distFunc, eps, minPts):
     return Labels
 
 
-DB = np.random.rand(20, 2) * 10
-print(DB)
-
-
-
-
 DB = [
     [1, 1], [2, 2], [2, 3], [8, 8],
     [8, 9], [25, 80], [24, 81], [23, 79],
